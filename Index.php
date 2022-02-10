@@ -108,6 +108,24 @@
         </section>
 
     </div>
+    <?php
+        include("conexion.php");
+
+        echo '<center><span text-align: center; style="color:#a42706;font-size:25px;">Datos</span></center>';
+
+
+        $query= $conn->query('select * from tabla');
+        $query->setFetchMode(PDO::FETCH_ASSOC);
+            while ($row = $query->fetch()) {
+                echo "nombre:" .$row['nombre'] . "<br/>";
+                echo "email:" .$row['email'] . "<br/>";
+                echo "contraseña:" .$row['contraseña'] . "<br/>";
+                echo "mensaje:" .$row['mensaje'] . "<br/>";
+                echo "Ciudad:" .$row['ciudad'] . "<br/>";
+                echo "<br/><br/>";
+            }
+
+    ?>
 
 </body>
 </html>
