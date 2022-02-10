@@ -7,7 +7,9 @@
 
 </head>
 <body style="background-color:#cd6d6d;">
-
+<?php
+       include("conexion.php")
+    ?>
 <div>
     <a class="bg-2" href="Index.html"><h1 class="t-stroke-shadow">INDEX</h1></a>.
 </div>
