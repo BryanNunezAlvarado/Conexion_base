@@ -111,7 +111,7 @@
     <?php
         include("conexion.php");
 
-        echo '<center><span text-align: center; style="color:#a42706;font-size:25px;">Datos</span></center>';
+        echo '<center><span text-align: center; style="color:#a42706;font-size:25px;">DATOS</span></center>';
 
 
         $query= $conn->query('select * from tabla');
