@@ -8,7 +8,7 @@
 </head>
 <body style="background-color:#5eddad;">
     <div>
-        <a class="bg-2" href="formulario.html"><h1 class="t-stroke-shadow">FORMULARIO</h1></a>.
+        <a class="bg-2" href="formulario.php"><h1 class="t-stroke-shadow">FORMULARIO</h1></a>.
     </div>
     <H1 align="center">
         Bryan Daniel Nuñez Alvarado
