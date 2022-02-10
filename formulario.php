@@ -11,7 +11,7 @@
        include("conexion.php")
     ?>
 <div>
-    <a class="bg-2" href="Index.html"><h1 class="t-stroke-shadow">INDEX</h1></a>.
+    <a class="bg-2" href="Index.php"><h1 class="t-stroke-shadow">INDEX</h1></a>.
 </div>
 
     <form action="store.php" method="POST">
@@ -21,16 +21,16 @@
         <label for="email" />Email</label>
         <input type="email" name="email" id="email" placeholder="email" required />
         <label for="contraseña">Contraseña</label>
-        <input type= "password" name="contraseña" id="contraseña" placeholder="Password" required/>
+        <input type= "password" name="contrasena" id="contraseña" placeholder="Password" required/>
         <br>
         <label for="nombre">Comentario</label>
         <textarea name="mensaje" for="mensaje" placeholder="Añade comentario" maxlength="300"></textarea>
         <label for="nombre">Ciudad</label>
         <select name="select">
-            <option value="value1">Guadalajara</option>
-            <option value="value2" selected>Zapopan</option>
-            <option value="value3">Tonala</option>
-            <option value="value4">Otra</option>
+            <option value="Guadalajara">Guadalajara</option>
+            <option value="Zapopan" selected>Zapopan</option>
+            <option value="Tonala">Tonala</option>
+            <option value="Otra">Otra</option>
         </select>
         <br></br>
 

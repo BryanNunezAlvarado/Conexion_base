@@ -4,10 +4,10 @@
      {
          $nombre =  $_POST['nombre'];
          $email =  $_POST['email'];
-         $contraseña =  $_POST['contraseña'];
+         $contrasena =  $_POST['contrasena'];
          $mensaje =  $_POST['mensaje'];
          $ciudad =  $_POST['select'];
-         $sql = "INSERT INTO tabla (nombre,email,contraseña,mensaje,ciudad)VALUES ('$nombre', '$email', '$contraseña', '$mensaje','$ciudad')";
+         $sql = "INSERT INTO tabla (nombre,email,contrasena,mensaje,ciudad)VALUES ('$nombre', '$email', '$contrasena', '$mensaje','$ciudad')";
              $conn->exec($sql);
      }
             header('Location: index.php');

@@ -119,7 +119,7 @@
             while ($row = $query->fetch()) {
                 echo "nombre:" .$row['nombre'] . "<br/>";
                 echo "email:" .$row['email'] . "<br/>";
-                echo "contraseña:" .$row['contraseña'] . "<br/>";
+                echo "contraseña:" .$row['contrasena'] . "<br/>";
                 echo "mensaje:" .$row['mensaje'] . "<br/>";
                 echo "Ciudad:" .$row['ciudad'] . "<br/>";
                 echo "<br/><br/>";
